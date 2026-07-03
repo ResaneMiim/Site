@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجتبی میدانی | طراح خلاق و گرافیک</title>
+    <meta name="description" content="پورتفولیو مجتبی میدانی، طراح گرافیک و وب دیزاینر. طراحی سایت، رابط کاربری و هویت بصری برند شما.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="طراحی سایت, طراحی گرافیک, مجتبی میدانی, وب دیزاین, برندینگ, پورتفولیو">
+    <meta name="author" content="مجتبی میدانی">
+    <meta property="og:title" content="مجتبی میدانی | طراح خلاق و گرافیک">
+    <meta property="og:description" content="طراحی خلاقانه و تجربه دیجیتال ماندگار برای برند شما.">
+    <meta property="og:type" content="website">
+    
+    <!-- FontAwesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <!-- Loading Animation -->
+    <div id="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-text">در حال بارگذاری...</div>
+    </div>
+
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <img src="img/logo.png" alt="لوگو مجتبی میدانی" class="logo-img">
+                <span class="logo-text">مجتبی میدانی</span>
+            </a>
+            <nav id="nav">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">خانه</a></li>
+                    <li><a href="#about" class="nav-link">درباره من</a></li>
+                    <li><a href="#services" class="nav-link">خدمات</a></li>
+                    <li><a href="#portfolio" class="nav-link">نمونه کارها</a></li>
+                    <li><a href="#contact" class="nav-link">تماس</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary header-btn magnetic">ثبت سفارش پروژه</a>
+            <button id="menu-toggle" aria-label="منو">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-elements">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tagline reveal">آماده شنیدن ایده های شما هستم</span>
+                <h1 class="hero-title reveal">
+                    طراحی خلاقانه، <br>
+                    <span class="gradient-text">تجربه دیجیتال ماندگار</span>
+                </h1>
+                <p class="hero-description reveal">
+                    من مجتبی میدانی هستم، طراح گرافیک و وب. با ترکیب هنر و تکنولوژی، برندهایی خلق می کنم که در ذهن مخاطب می ماندند و رشد کسب و کار شما را تضمین می کنند.
+                </p>
+                <div class="hero-buttons reveal">
+                    <a href="#contact" class="btn btn-primary magnetic">ثبت سفارش پروژه</a>
+                    <a href="#portfolio" class="btn btn-outline magnetic">مشاهده نمونه کارها</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="profile-wrapper">
+                    <div class="profile-bg-shape"></div>
+                    <img src="img/profile.jpg" alt="مجتبی میدانی" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="اسکرول کنید">
+            <span class="scroll-text">اسکرول کنید</span>
+            <span class="scroll-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">درباره من</span>
+                <h2 class="section-title">چرا با من همکاری کنید؟</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>با بیش از ۸ سال تجربه در زمینه طراحی گرافیک و توسعه وب، به کمک برندها می رانم تا صدای خود را به گوش مخاطب هدف برسانند. طراحی برای من فقط تزئین نیست، بلکه راهکاری استراتژیک برای حل مشکلات کسب و کار شماست.</p>
+                    <ul class="about-features">
+                        <li><span class="check-icon">✓</span> تحویل به موقع و تعهد به زمان بندی</li>
+                        <li><span class="check-icon">✓</span> پشتیبانی کامل پس از تحویل پروژه</li>
+                        <li><span class="check-icon">✓</span> طراحی کاملاً اختصاصی و ریسپانسیو</li>
+                        <li><span class="check-icon">✓</span> بهینه سازی برای موتورهای جستجو (SEO)</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary magnetic">بیایید شروع کنیم</a>
+                </div>
+                <div class="about-skills reveal">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>طراحی UI/UX</span><span>95%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>طراحی وب</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>برندینگ و لوگو</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>گرافیک حرکتی</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">خدمات</span>
+                <h2 class="section-title">چه کاری برای شما انجام می دهم؟</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-card tilt-card reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+                    </div>
+                    <h3>طراحی وب سایت</h3>
+                    <p>طراحی و توسعه وب سایت های مدرن، سریع و ریسپانسیو با استفاده از جدیدترین تکنولوژی های روز دنیا.</p>
+                </div>
+                <div class="service-card glass-card tilt-card reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    </div>
+                    <h3>طراحی رابط کاربری (UI)</h3>
+                    <p>طراحی رابط کاربری جذاب و کاربرپسند برای اپلیکیشن های موبایل و وب سایت ها بر اساس اصول متریال.</p>
+                </div>
+                <div class="service-card glass-card tilt-card reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                    </div>
+                    <h3>برندینگ و هویت بصری</h3>
+                    <p>خلق هویت بصری منحصر به فرد شامل طراحی لوگو، کارت ویزیت و تمامی اقلام تبلیغاتی برای کسب و کار شما.</p>
+                </div>
+                <div class="service-card glass-card tilt-card reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+                    </div>
+                    <h3>گرافیک حرکتی (Motion)</h3>
+                    <p>ساخت انیمیشن های دو بعدی و موشن گرافیک برای معرفی محصول و افزایش نرخ تعامل مخاطبان.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">نمونه کارها</span>
+                <h2 class="section-title">پروژه های اخیر</h2>
+            </div>
+            <div class="portfolio-filter reveal">
+                <button class="filter-btn magnetic active" data-filter="all">همه</button>
+                <button class="filter-btn magnetic" data-filter="web">طراحی وب</button>
+                <button class="filter-btn magnetic" data-filter="branding">برندینگ</button>
+                <button class="filter-btn magnetic" data-filter="ui">رابط کاربری</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal" data-category="web">
+                    <div class="portfolio-thumbnail thumb-1">
+                        <div class="thumb-blob blob-a"></div>
+                        <div class="thumb-blob blob-b"></div>
+                        <div class="thumb-grid"></div>
+                        <img src="img/proj-1.jpg" alt="پروژه ۱" class="thumb-img" onerror="this.style.display='none'">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-cat">طراحی وب</span>
+                        <h3>فروشگاه آنلاین مدرن</h3>
+                        <button class="portfolio-view magnetic" data-project="1">مشاهده پروژه +</button>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal" data-category="ui">
+                    <div class="portfolio-thumbnail thumb-2">
+                        <div class="thumb-blob blob-a"></div>
+                        <div class="thumb-blob blob-b"></div>
+                        <div class="thumb-grid"></div>
+                        <img src="img/proj-2.jpg" alt="پروژه ۲" class="thumb-img" onerror="this.style.display='none'">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-cat">رابط کاربری</span>
+                        <h3>اپلیکیشن موبایل بانک</h3>
+                        <button class="portfolio-view magnetic" data-project="2">مشاهده پروژه +</button>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal" data-category="branding">
+                    <div class="portfolio-thumbnail thumb-3">
+                        <div class="thumb-blob blob-a"></div>
+                        <div class="thumb-blob blob-b"></div>
+                        <div class="thumb-grid"></div>
+                        <img src="img/proj-3.jpg" alt="پروژه ۳" class="thumb-img" onerror="this.style.display='none'">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-cat">برندینگ</span>
+                        <h3>هویت بصری کافه</h3>
+                        <button class="portfolio-view magnetic" data-project="3">مشاهده پروژه +</button>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal" data-category="web">
+                    <div class="portfolio-thumbnail thumb-4">
+                        <div class="thumb-blob blob-a"></div>
+                        <div class="thumb-blob blob-b"></div>
+                        <div class="thumb-grid"></div>
+                        <img src="img/proj-4.jpg" alt="پروژه ۴" class="thumb-img" onerror="this.style.display='none'">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-cat">طراحی وب</span>
+                        <h3>سایت آژانس خلاقیت</h3>
+                        <button class="portfolio-view magnetic" data-project="4">مشاهده پروژه +</button>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal" data-category="ui">
+                    <div class="portfolio-thumbnail thumb-5">
+                        <div class="thumb-blob blob-a"></div>
+                        <div class="thumb-blob blob-b"></div>
+                        <div class="thumb-grid"></div>
+                        <img src="img/proj-5.jpg" alt="پروژه ۵" class="thumb-img" onerror="this.style.display='none'">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-cat">رابط کاربری</span>
+                        <h3>داشبورد مدیریتی</h3>
+                        <button class="portfolio-view magnetic" data-project="5">مشاهده پروژه +</button>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal" data-category="branding">
+                    <div class="portfolio-thumbnail thumb-6">
+                        <div class="thumb-blob blob-a"></div>
+                        <div class="thumb-blob blob-b"></div>
+                        <div class="thumb-grid"></div>
+                        <img src="img/proj-6.jpg" alt="پروژه ۶" class="thumb-img" onerror="this.style.display='none'">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-cat">برندینگ</span>
+                        <h3>بسته بندی محصول</h3>
+                        <button class="portfolio-view magnetic" data-project="6">مشاهده پروژه +</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section id="process" class="process-section section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">فرآیند کار</span>
+                <h2 class="section-title">چگونه پروژه ها را پیش می برم؟</h2>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step reveal">
+                    <div class="process-number">01</div>
+                    <div class="process-content glass-card tilt-card">
+                        <h3>کشف و تحلیل</h3>
+                        <p>بررسی نیازهای شما، شناخت مخاطب هدف و رقبا برای تدوین استراتژی مناسب.</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="process-number">02</div>
+                    <div class="process-content glass-card tilt-card">
+                        <h3>ایده پردازی و طراحی</h3>
+                        <p>خلق وایرفریم ها و طراحی های اولیه برای بررسی ساختار و تجربه کاربری.</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="process-number">03</div>
+                    <div class="process-content glass-card tilt-card">
+                        <h3>توسعه و پیاده سازی</h3>
+                        <p>کدنویسی تمیز، پیاده سازی طراحی ها و افزودن انیمیشن ها و تعاملات.</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="process-number">04</div>
+                    <div class="process-content glass-card tilt-card">
+                        <h3>تحویل و پشتیبانی</h3>
+                        <p>تست نهایی، تحویل پروژه و ارائه پشتیبانی برای اطمینان از عملکرد عالی.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats" class="stats-section section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <h3 class="stat-number" data-target="250">0</h3>
+                    <p class="stat-label">پروژه تکمیل شده</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3 class="stat-number" data-target="180">0</h3>
+                    <p class="stat-label">مشتری راضی</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3 class="stat-number" data-target="8">0</h3>
+                    <p class="stat-label">سال تجربه</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3 class="stat-number" data-target="15">0</h3>
+                    <p class="stat-label">جایزه طراحی</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section (Updated to Slider) -->
+    <section id="testimonials" class="testimonials-section section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">نظرات مشتریان</span>
+                <h2 class="section-title">مشتریان درباره من چه می گویند؟</h2>
+            </div>
+            <div class="testimonial-slider reveal">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-inner glass-card tilt-card">
+                            <div class="testimonial-quote">“</div>
+                            <p>همکاری با مجتبی یکی از بهترین تصمیمات ما بود. سایت جدید نه تنها از نظر بصری خیره کننده است، بلکه نرخ تبدیل ما را به طور چشمگیری افزایش داد.</p>
+                            <div class="testimonial-author">
+                                <img src="img/client-1.jpg" alt="علی رضایی" class="author-img" onerror="this.style.display='none'">
+                                <div class="author-info">
+                                    <h4>علی رضایی</h4>
+                                    <span>مدیرعامل شرکت تجارت نوین</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-inner glass-card tilt-card">
+                            <div class="testimonial-quote">“</div>
+                            <p>خلاقیت و توجه به جزئیات در کارهای مجتبی بی نظیر است. او توانست هویت بصری برند ما را دقیقاً همانطور که می خواستیم پیاده سازی کند.</p>
+                            <div class="testimonial-author">
+                                <img src="img/client-2.jpg" alt="زهرا محمدی" class="author-img" onerror="this.style.display='none'">
+                                <div class="author-info">
+                                    <h4>زهرا محمدی</h4>
+                                    <span>بنیانگذار استارتاپ فودتک</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-inner glass-card tilt-card">
+                            <div class="testimonial-quote">“</div>
+                            <p>سرعت عمل، تعهد و کیفیت بالا. مجتبی پروژه را قبل از موعد مقرر تحویل داد و تغییرات را با دقت اعمال کرد. قطعاً دوباره با او کار خواهیم کرد.</p>
+                            <div class="testimonial-author">
+                                <img src="img/client-3.jpg" alt="رضا حسینی" class="author-img" onerror="this.style.display='none'">
+                                <div class="author-info">
+                                    <h4>رضا حسینی</h4>
+                                    <span>مدیر مارکتینگ آژانس دیجیتال</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn magnetic" id="prevBtn"><i class="fas fa-chevron-right"></i></button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button class="slider-btn magnetic" id="nextBtn"><i class="fas fa-chevron-left"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section section">
+        <div class="container">
+            <div class="faq-layout">
+                <div class="faq-header reveal">
+                    <span class="section-subtitle">سوالات متداول</span>
+                    <h2 class="section-title">سوالی دارید؟</h2>
+                    <p>در این بخش پاسخ به سوالات متداول شما قرار گرفته است. اگر سوالی دارید که در اینجا پیدا نکردید، از طریق فرم تماس با من در ارتباط باشید.</p>
+                    <a href="#contact" class="btn btn-outline magnetic">مشاوره رایگان</a>
+                </div>
+                <div class="faq-list reveal">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span class="faq-num">01</span>
+                            <span class="faq-text">هزینه طراحی یک وب سایت چقدر است؟</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer">
+                                <p>هزینه طراحی وب سایت بسته به نوع پروژه، امکانات مورد نیاز، تعداد صفحات و پیچیدگی طراحی متفاوت است. پس از بررسی نیازهای شما در جلسه مشاوره، یک پیش فاکتور دقیق ارائه خواهد شد.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span class="faq-num">02</span>
+                            <span class="faq-text">مدت زمان انجام پروژه چقدر است؟</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer">
+                                <p>زمان تحویل پروژه نیز وابسته به حجم کار است. به طور میانگین، یک وب سایت شرکتی بین ۳ تا ۵ هفته و پروژه های برندینگ حدود ۲ تا ۳ هفته زمان نیاز دارند.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span class="faq-num">03</span>
+                            <span class="faq-text">آیا پس از تحویل پروژه پشتیبانی انجام می شود؟</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer">
+                                <p>بله، تمامی پروژه ها شامل یک ماه پشتیبانی رایگان هستند. برای بازه های طولانی تر، پکیج های پشتیبانی ماهانه ارائه می شود تا خیالتان از بابت آپدیت و امنیت سایت راحت باشد.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span class="faq-num">04</span>
+                            <span class="faq-text">برای شروع پروژه چه باید کرد؟</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer">
+                                <p>کافیست از طریق فرم تماس در همین صفحه درخواست خود را ثبت کنید. در کوتاه ترین زمان ممکن با شما تماس گرفته می شود تا جلسه مشاوره اولیه برگزار گردد.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">تماس با من</span>
+                <h2 class="section-title">ثبت سفارش پروژه</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>بیایید در مورد پروژه شما صحبت کنیم</h3>
+                    <p>اگر ایده ای در سر دارید یا کسب و کارتان نیاز به حضور حرفه ای در فضای دیجیتال دارد، فرم را پر کنید تا به زودی با شما تماس بگیرم.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <span class="contact-icon">✆</span>
+                            <a href="tel:09399887950" style="color: inherit; text-decoration: none;">09399887950</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon">✉</span>
+                            <a href="mailto:resane.Miim@gmail.com" style="color: inherit; text-decoration: none;">resane.Miim@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon">⚲</span>
+                            <span>خراسان جنوبی، شهرستان خوسف، روستای تقاب</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form-wrapper reveal">
+                    <form id="contactForm" class="contact-form glass-card" novalidate action="https://formspree.io/f/mbdvppnp" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">نام و نام خانوادگی</label>
+                                <span class="form-error">لطفاً نام خود را وارد کنید</span>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" required pattern="09[0-9]{9}">
+                                <label for="phone">شماره تماس</label>
+                                <span class="form-error">شماره موبایل معتبر وارد کنید (09...)</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">ایمیل</label>
+                            <span class="form-error">ایمیل معتبر وارد کنید</span>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <select id="projectType" name="projectType" required>
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="web">طراحی وب سایت</option>
+                                    <option value="ui">طراحی رابط کاربری</option>
+                                    <option value="branding">برندینگ و لوگو</option>
+                                    <option value="other">سایر</option>
+                                </select>
+                                <label for="projectType">نوع پروژه</label>
+                                <span class="form-error">لطفاً نوع پروژه را انتخاب کنید</span>
+                            </div>
+                            <div class="form-group">
+                                <select id="budget" name="budget" required>
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="low">زیر ۵ میلیون تومان</option>
+                                    <option value="medium">۵ تا ۱۵ میلیون تومان</option>
+                                    <option value="high">بیشتر از ۱۵ میلیون تومان</option>
+                                </select>
+                                <label for="budget">بودجه پیشنهادی</label>
+                                <span class="form-error">لطفاً بودجه را انتخاب کنید</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="description" name="description" rows="4" required></textarea>
+                            <label for="description">توضیحات پروژه</label>
+                            <span class="form-error">لطفاً توضیحات را وارد کنید</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block magnetic">ارسال درخواست</button>
+                        <div class="form-success">درخواست شما با موفقیت ارسال شد! به زودی با شما تماس می گیرم.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-about">
+                <a href="#home" class="logo">
+                    <img src="img/logo.png" alt="لوگو" class="logo-img">
+                    <span class="logo-text">مجتبی میدانی</span>
+                </a>
+                <p>طراح گرافیک و وب دیزاینر، خالق تجربیات دیجیتال ماندگار و هویت های بصری تاثیرگذار.</p>
+            </div>
+            <div class="footer-links">
+                <h4>دسترسی سریع</h4>
+                <ul>
+                    <li><a href="#home">خانه</a></li>
+                    <li><a href="#services">خدمات</a></li>
+                    <li><a href="#portfolio">نمونه کارها</a></li>
+                    <li><a href="#contact">تماس با من</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>شبکه های اجتماعی</h4>
+                <div class="social-icons">
+                    <a href="https://instagram.com/Resane_miim" target="_blank" class="magnetic" aria-label="اینستاگرام"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/Resane_miim" target="_blank" class="magnetic" aria-label="تلگرام"><i class="fab fa-telegram-plane"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© ۲۰۲۳ تمامی حقوق برای مجتبی میدانی محفوظ است.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-header">
+                <span class="modal-category">دسته بندی</span>
+                <h2 class="modal-title">عنوان پروژه</h2>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-wrapper thumb-1">
+                    <div class="thumb-blob blob-a"></div>
+                    <div class="thumb-blob blob-b"></div>
+                    <div class="thumb-grid"></div>
+                    <img src="img/proj-1.jpg" alt="پروژه" class="modal-img-tag" onerror="this.style.display='none'">
+                </div>
+                <p class="modal-description">توضیحات کامل پروژه در اینجا قرار می گیرد. اهداف پروژه، چالش ها و راهکارهای ارائه شده به تفصیل شرح داده می شود.</p>
+                <ul class="modal-features">
+                    <li><strong>مشتری:</strong> نام شرکت</li>
+                    <li><strong>مدت زمان:</strong> ۳ هفته</li>
+                    <li><strong>خدمات:</strong> طراحی UI، توسعه Front-end</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
